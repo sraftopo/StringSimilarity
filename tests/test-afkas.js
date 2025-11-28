@@ -147,3 +147,4 @@ async function testFindAfaks() {
 
 // Run the test
 testFindAfaks().catch(console.error);
+

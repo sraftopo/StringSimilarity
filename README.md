@@ -136,11 +136,11 @@ Server information and usage instructions.
 
 ## Similarity Algorithms Used
 
-1. **String Similarity (Dice Coefficient)**: 30% weight
-2. **Jaro-Winkler Distance**: 20% weight
-3. **Levenshtein Distance**: 20% weight
-4. **Jaccard Similarity**: 15% weight
-5. **TF-IDF Cosine Similarity**: 15% weight
+1. **String Similarity (Dice Coefficient)**: 30% weight - [Wikipedia: Sørensen–Dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient)
+2. **Jaro-Winkler Distance**: 20% weight - [Wikipedia: Jaro–Winkler distance](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
+3. **Levenshtein Distance**: 20% weight - [Wikipedia: Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+4. **Jaccard Similarity**: 15% weight - [Wikipedia: Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index)
+5. **TF-IDF Cosine Similarity**: 15% weight - [Wikipedia: TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) and [Wikipedia: Cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity)
 
 ## Testing
 

@@ -267,3 +267,4 @@ if (require.main === module) {
 }
 
 module.exports = { testMSSQLEndpoints, exampleUsage };
+
