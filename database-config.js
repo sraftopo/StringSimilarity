@@ -12,8 +12,8 @@ class DatabaseConfig {
       server: process.env.DB_HOST || "localhost",
       port: parseInt(process.env.DB_PORT) || 1433,
       database: process.env.DB_NAME || "TIASuite",
-      user: process.env.DB_USERNAME || "username",
-      password: process.env.DB_PASSWORD || "password",
+      user: process.env.DB_USERNAME || "sa",
+      password: process.env.DB_PASSWORD || "E3@eTaesQl@dM1n",
       options: {
         encrypt: false, // Use true if you're on Windows Azure
         trustServerCertificate: true, // Use true if you're on Windows Azure
