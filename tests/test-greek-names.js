@@ -190,3 +190,4 @@ console.log('console.log(result.corrected);        // Corrected name');
 console.log('console.log(result.greekScript);      // Greek script version');
 console.log('console.log(result.gender);           // Detected gender');
 console.log('console.log(result.confidence);       // Confidence score');
+

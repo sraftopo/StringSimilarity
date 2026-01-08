@@ -108,3 +108,4 @@ console.log("  - Always check the confidence score for accuracy");
 console.log("  - Use targetCase for proper Greek declension");
 console.log("  - Enable fixCommonErrors for better results");
 console.log("  - The library works with both Greek and Latin scripts");
+
