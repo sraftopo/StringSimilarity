@@ -1,0 +1,6 @@
+select *
+from drikos.es as es
+inner join drikos."es@se" as es_se on es.c_es = es_se.c_es
+inner join drikos.tae_site_pi as afak_c_se on afak_c_se.c_se = es_se.c_se
+where afak_c_se.afak = 61315
+FETCH FIRST 1 ROWS ONLY
